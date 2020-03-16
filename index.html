@@ -3,7 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Sign In</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="form-holder">
+        <div class="branding">
+          <div class="logo">
+            <div class="pink-box"></div>
+            <div class="yellow-box"></div>
+            <div class="purple-box"></div>
+            <div class="green-box"></div>
+          </div>
+          <h3 class="company-name">BoxCompany</h3>
+        </div>
+        <h1>Sign in</h1>
+        <form id="sign-in">
+          <input
+            type="text"
+            class="input-text"
+            placeholder="Email, phone, or Skype"
+          />
+        </form>
+
+        <p class="no-account">No account? <a href="#">Create one!</a></p>
+        <p class="forgot"><a href="#">Forgot username</a></p>
+        <button form="sign-in" type="submit" class="submit-button">Next</button>
+      </div>
+    </main>
+  </body>
 </html>
