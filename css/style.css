@@ -14,13 +14,14 @@
 }
 
 body {
+  background-color: steelblue;
+}
+
+main {
   background-image: url(../img/waves.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top left;
-}
-
-main {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -143,4 +144,8 @@ h1 {
   color: #fff;
   font-size: 1rem;
   justify-self: end;
+}
+
+.submit-button:hover {
+  background-color: slateblue;
 }
