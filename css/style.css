@@ -78,6 +78,7 @@ a:hover {
 .logo div {
   height: 1rem;
   width: 1rem;
+  border: 1px solid #222;
 }
 
 .pink-box {
